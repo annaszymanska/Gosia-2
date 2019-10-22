@@ -80,7 +80,7 @@ body{
 
 div .container.main-part {
 	padding-top: 3rem;
-	padding-bottom: 3rem;	
+	padding-bottom: 2rem;	
 }
 
 /*.cta {
@@ -111,6 +111,16 @@ div .container.main-part {
 	box-shadow: 1px 1px 15px 1px black;
 	background-color: hsl(180, 100%, 27.3%, 0.8);
 }*/
+
+.cta {
+	padding: 0.7rem 1rem;
+	background-color: darkcyan;
+	color: aquamarine;
+	border: none;
+	border-radius: 8px;
+	font-family: 'Crimson Text', serif;
+	font-size: 1.3rem;
+}
 
 .footer {
 	width: 100vw;
@@ -154,6 +164,10 @@ div .container.main-part {
 	.navbar-custom .navbar-nav .nav-item {
 		padding-left: 1.5rem;
 	}
+	
+	div .container.main-part {
+	padding-bottom: 3rem;	
+}
 }
 
 @media (max-height: 360px) {
@@ -172,12 +186,3 @@ div .container.main-part {
 }
 
 
-.cta {
-	padding: 0.7rem 1rem;
-	background-color: darkcyan;
-	color: aquamarine;
-	border: none;
-	border-radius: 8px;
-	font-family: 'Crimson Text', serif;
-	font-size: 1.3rem;
-}

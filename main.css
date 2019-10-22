@@ -38,7 +38,7 @@ body{
   text-align: center;
   padding-top: 2rem;
   margin: 0 auto;
-	height: 100vh;
+	min-height: 100vh;
   width: 80%;
 }
 
@@ -82,9 +82,6 @@ div.container.main-part {
 }
 
 .footer {
-	position: absolute;
-	height: auto;
-	bottom: -auto;
 	width: 100vw;
 	text-align: center;
 	background-color: darkcyan;

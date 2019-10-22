@@ -144,8 +144,10 @@ div.container.main-part {
 	}
 	div.container.main-part {
 		padding-top: 1rem;
-		line-height: 1.25;
-		font-size: 1rem;
+		line-height: 1.25;		
+	}
+	.quote {
+		font-size: 1.3rem
 	}
 }
 

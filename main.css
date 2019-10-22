@@ -57,6 +57,7 @@ body{
 	font-family: 'Crimson Text', serif;
 	text-transform: uppercase;
 	font-size: 1.3rem;
+	margin: auto 0;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -79,6 +80,16 @@ body{
 
 div.container.main-part {
 	padding-top: 3rem;
+}
+
+.cta {
+	margin: 2rem;
+	background-color:darkcyan;
+	color: aquamarine;
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	border-color: aquamarine;
+	box-shadow: 1px 1px 10px 1px;
 }
 
 .footer {
@@ -124,12 +135,15 @@ div.container.main-part {
 		padding-left: 1.5rem;
 	}
 }
-.cta {
-	margin: 2rem;
-	background-color:darkcyan;
-	color: aquamarine;
-	padding: 1rem 2rem;
-	font-size: 1.2rem;
-	border-color: aquamarine;
-	box-shadow: 1px 1px 10px 1px;
+
+@media (max-height: 360px) {
+	.navbar-custom .navbar-nav .nav-item {
+		font-size: 1rem;
+		line-height: 1.3;	
+		padding-left: 1rem;
+	}
+	div.container.main-part {
+		padding-top: 2rem;
+	}
 }
+

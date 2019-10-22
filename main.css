@@ -82,7 +82,7 @@ div.container.main-part {
 	padding-top: 3rem;
 }
 
-.cta {
+/*.cta {
 	margin: 2rem;
 	background-color:darkcyan;
 	color: aquamarine;
@@ -90,7 +90,7 @@ div.container.main-part {
 	font-size: 1.2rem;
 	border-color: aquamarine;
 	box-shadow: 1px 1px 10px 1px;
-}
+}*/
 
 .footer {
 	width: 100vw;
